@@ -4,8 +4,9 @@ body{
 .jumbotron{
   background-color: #D35400;
 }
-h1{
+h2{
   font-size: 23;
   font-style: italic;
-  
+  text-align: center;
+
 }

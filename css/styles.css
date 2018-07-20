@@ -4,3 +4,8 @@ body{
 .jumbotron{
   background-color: #D35400;
 }
+h1{
+  font-size: 23;
+  font-style: italic;
+  
+}

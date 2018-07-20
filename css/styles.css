@@ -4,6 +4,7 @@ body{
 }
 .topnav{
   background-image: url(../img/pig3.jpeg);
+  height: 200px;
 }
 .jumbotron{
   background-color: #D35400;

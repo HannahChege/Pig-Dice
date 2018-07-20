@@ -12,8 +12,12 @@
       <title>PIG DICE</title>
     </head>
     <body>
-      <div class="jumbotron">
+
+      <div class="topnav">
         <h2>LET'S PLAY PIG DICE</h2>
+      
+      </div>
+      <div class="jumbotron">
         <form id="Player">
           <div class="form-group">
             <label for="Player1Name">Player 1 Name </label>
@@ -23,21 +27,21 @@
             <label for="Player2Name">Player 2 Name </label>
             <input type="text" class="form-contol" size="55"  id="Player2Name">
           </div>
+          <button type="submit" class="btn btn-danger1" id="result"> START</button>
         </form>
-        <button type="submit" class="btn btn-danger1" id= "result"> START</button>
+
       </div>
       <div class="container">
-        <h1>NEW GAME</h1>
         <div class="row">
           <div class="col-md-6">
-            <h1>Player 1:</h1>
+            <h1 id="Player1Name"></h1>
             <button type="submit" class="btn btn -danger"> Roll</button> <button type="submit" class="btn btn -danger">Hold</button>
             <h1>Dice roll</h1>
             <p>Round Total</p>
             <p>Total Score</p>
           </div>
           <div class="col-md-6">
-            <h1>Player 2:</h1>
+            <h1 id="Player2Name"></h1>
             <button type="submit" class="btn btn -danger"> Roll</button> <button type="submit" class="btn btn -danger">Hold</button>
             <h1>Dice roll</h1>
             <p>Round Total</p>

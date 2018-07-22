@@ -4,6 +4,7 @@
 }
 .player-console {
   display: none;
+  background-color: purple;
 }
 body {
   background-color: #3498DB;

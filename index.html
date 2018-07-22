@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <title>PIG DICE</title>
@@ -14,8 +15,8 @@
     <h2 class="animated tada">LET'S PLAY PIG DICE</h2>
     <img src="img/pig3.jpeg" alt="image">
   </div>
-<div class="jumbotron">
-  <form id="player-1">
+  <div class="jumbotron">
+    <form id="player-1">
       <div class="form-group">
         <label for="Player1Name">Player 1 Name </label>
         <input type="text" class="form-contol" size="55" class="player1Name">
@@ -26,24 +27,24 @@
         <label for="player2Name">Player 2 Name </label>
         <input type="text" class="form-contol" size="55" id="player2Name">
       </div>
-      <button type="submit" class="btn btn-danger1" id="result" > START</button>
+      <button type="submit" class="btn btn-danger1" id="result"> START</button>
     </form>
-</div>
-   <div class="container">
+  </div>
+  <div class="container">
     <div class="row">
-    <div class="col-md-6">
-      <h1 id="player1Name"></h1>
-      <button id="player1-roll" class="btn btn -danger"> Roll</button> <button id="player2-roll"class="btn btn -danger">Hold</button>
+      <div class="col-md-6">
+        <h1 id="player1Name"></h1>
+        <button id="player1-roll" class="btn btn -danger"> Roll</button> <button id="player2-roll" class="btn btn -danger">Hold</button>
         <h1>Dice roll: <span id="die-roll-1"></span></h1>
-      <p>Round Total <span id="round-total-1"></span></p>
-      <p>Total Score  <span id="total-score-1"></span></p>
-    </div>
-    <div class="col-md-6">
-      <h1 id="player2Name"></h1>
-      <button id="player2-roll" class="btn btn -danger"> Roll</button> <button id="player2-hold" class="btn btn -danger">Hold</button>
-      <h1>Dice roll:<span id="die-roll-2"></span></h1>
-      <p>Round Total:<span id="round-total-2"></span></p>
-      <p>Total Score:<span id="total-score-2"></p>
+        <p>Round Total <span id="round-total-1"></span></p>
+        <p>Total Score <span id="total-score-1"></span></p>
+      </div>
+      <div class="col-md-6">
+        <h1 id="player2Name"></h1>
+        <button id="player2-roll" class="btn btn -danger"> Roll</button> <button id="player2-hold" class="btn btn -danger">Hold</button>
+        <h1>Dice roll:<span id="die-roll-2"></span></h1>
+        <p>Round Total:<span id="round-total-2"></span></p>
+        <p>Total Score:<span id="total-score-2"></p>
     </div>
   </div>
 </div>

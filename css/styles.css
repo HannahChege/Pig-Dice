@@ -1,28 +1,29 @@
-.topnav{
+.topnav {
   height: 255px;
   text-align: center;
   background-color: #FFC300;
 }
-body{
-  background-color:#3498DB;
 
+body {
+  background-color: #3498DB;
 }
-.jumbotron{
+
+.jumbotron {
   background-color: #CA320D;
-   border-style: solid;
+  border-style: solid;
   box-shadow: 0 0 0.5px 0.5px #F2F2F2;
-  padding:10px;
+  padding: 10px;
   margin-left:
 }
 
-.btn btn-danger1{
-  background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 5px 2px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-
+.btn btn-danger1 {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 5px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }

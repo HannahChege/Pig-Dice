@@ -1,20 +1,23 @@
-body{
-  background-color: #D35400;
-
-}
 .topnav{
-  background-image: url(../img/pig3.jpeg);
-  height: 200px;
-}
-.jumbotron{
-  background-color: #D35400;
-}
-h2{
   font-size: 80;
   font-style: italic;
   text-align: center;
+  height: 100px;
+  background-color: maroon;
+  text-decoration: overline;
+  text-decoration-style: wavy;
+  text-decoration-color: white;
 
 }
+body{
+  background-color: maroon;
+
+}
+.jumbotron{
+  background-color: maroon;
+   border-style: solid;
+}
+
 .btn btn-danger1{
   background-color: #4CAF50; /* Green */
     border: none;

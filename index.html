@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -15,36 +14,39 @@
     <h2 class="animated tada">LET'S PLAY PIG DICE</h2>
     <img src="img/pig3.jpeg" alt="image">
   </div>
-<div class="jumbotron ">
-  <form id="Player">
+<div class="jumbotron">
+  <form id="player-1">
       <div class="form-group">
         <label for="Player1Name">Player 1 Name </label>
-        <input type="text" class="form-contol" size="55" id="Player1Name">
+        <input type="text" class="form-contol" size="55" class="player1Name">
       </div>
-      <div class="form-group">
-        <label for="Player2Name">Player 2 Name </label>
-        <input type="text" class="form-contol" size="55" id="Player2Name">
-      </div>
-      <button type="submit" class="btn btn-danger1" id="result"> START</button>
     </form>
-
+    <form id="player-2">
+      <div class="form-group">
+        <label for="player2Name">Player 2 Name </label>
+        <input type="text" class="form-contol" size="55" id="player2Name">
+      </div>
+      <button type="submit" class="btn btn-danger1" id="result" > START</button>
+    </form>
 </div>
-
-  <div class="row">
+   <div class="container">
+    <div class="row">
     <div class="col-md-6">
-      <h1 id="Player1Name"></h1>
-      <button type="submit" class="btn btn -danger"> Roll</button> <button type="submit" class="btn btn -danger">Hold</button>
-      <h1>Dice roll</h1>
-      <p>Score</p>
+      <h1 id="player1Name"></h1>
+      <button id="player1-roll" class="btn btn -danger"> Roll</button> <button id="player2-roll"class="btn btn -danger">Hold</button>
+        <h1>Dice roll: <span id="die-roll-1"></span></h1>
+      <p>Round Total <span id="round-total-1"></span></p>
+      <p>Total Score  <span id="total-score-1"></span></p>
     </div>
     <div class="col-md-6">
-      <h1 id="Player2Name"></h1>
-      <button type="submit" class="btn btn -danger"> Roll</button> <button type="submit" class="btn btn -danger">Hold</button>
-      <h1>Dice roll</h1>
-      <p>Round Total</p>
-      <p>Total Score</p>
+      <h1 id="player2Name"></h1>
+      <button id="player2-roll" class="btn btn -danger"> Roll</button> <button id="player2-hold" class="btn btn -danger">Hold</button>
+      <h1>Dice roll:<span id="die-roll-2"></span></h1>
+      <p>Round Total:<span id="round-total-2"></span></p>
+      <p>Total Score:<span id="total-score-2"></p>
     </div>
   </div>
+</div>
 </body>
 
 </html>

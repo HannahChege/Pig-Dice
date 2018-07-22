@@ -1,14 +1,14 @@
 .topnav{
   height: 255px;
   text-align: center;
-  background-color: yellow;
+  background-color: #FFC300;
 }
 body{
-  background-color:;
+  background-color:#3498DB;
 
 }
 .jumbotron{
-  background-color: ;
+  background-color: #CA320D;
    border-style: solid;
   box-shadow: 0 0 0.5px 0.5px #F2F2F2;
   padding:10px;

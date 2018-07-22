@@ -17,7 +17,7 @@ function Player(turn) {
 Player.prototype.rollone = function() {
   if (this.roll === 1) {
     this.tempscore = 0;
-    alert("Sorry " + this.playerName + ", you rolled a 1! Your turn is over!")
+    alert("hello " + this.playerName + ", you rolled a 1! Your turn is over!")
   } else {
     this.tempscore += this.roll;
   }
@@ -64,41 +64,23 @@ var clearValues = function() {
 }
 //user Interface
 $(document).ready(function() {
-      $("#start").click(function(event) {
-        event.preventDefault();
-        var player1 = $("#Player1Name").val();
-        var player2 = $("#Player2Name").val();
-        $("form#Player").submit(function(event) {
-          event.preventDefault();
-          var player1 = $("input#Player1Name").val();
-          var player2 = $("input#Player2Name").val();
+      $("button#start").click(function(event) {
+         player1 = new Player(true);
+          player2 =  new Player(false);
+          $(".player-console").show();
+          $(".start-menu").hide();
 
-          $("h1#Player1Name").text(player1);
-          $("h1#Player2Name").text(player2);
-          console.log(player1 + " " + player2);
+          var player1Name = $(".player1Name").val();
+          $("#player1Name").text(player1Name);
 
-          $("#Player1Name").text(player1)
-          $("#Player2Name").text(player2)
-        })
+          var player2Name = $(".player2Name").val();
+          $("#player2Name").text(player2Name);
 
-      })
-      $(document).ready(function() {
-            $("button#start").click(function(event) {
-              player1 = new Player(true);
-              player2 = new Player(false);
-              $(".player-console").show();
-              $(".start-menu").hide();
+          player1.playerName=player1Name;
+          player2.playerName=player2Name;
 
-              var player1Name = $(".player1Name").val();
-              $("#player1Name").text(player1Name);
+        });
 
-              var player2Name = $(".player2Name").val();
-              $("#player2Name").text(player2Name);
-
-              player1.playerName = player1Name;
-              player2.playerName = player2Name;
-
-            });
             $("button#new-game").click(function(event) {
               $(".player-console").hide();
               clearValues();
@@ -142,4 +124,6 @@ $(document).ready(function() {
                   $("#round-total-2").empty();
                   $("#die-roll-2").empty();
                   player2.winnerCheck();
-                }
+                });
+
+              });

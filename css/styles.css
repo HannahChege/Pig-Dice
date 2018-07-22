@@ -1,15 +1,19 @@
 .topnav {
   height: 255px;
   text-align: center;
-  background-color: #FFC300;
 }
-
+.player-console {
+  display: none;
+}
 body {
   background-color: #3498DB;
+  background-image: url(../img/pigg.jpg);
 }
-
+h4{
+  font-size: 56px;
+}
 .jumbotron {
-  background-color: #CA320D;
+  background-color:purple;
   border-style: solid;
   box-shadow: 0 0 0.5px 0.5px #F2F2F2;
   padding: 10px;

@@ -12,8 +12,7 @@
 
 <body>
   <div class="topnav">
-    <h2 class="animated tada">LET'S PLAY PIG DICE</h2>
-    <img src="img/pig3.jpeg" alt="image">
+    <h4 class="animated tada" style="color:purple;">LET'S PLAY PIG DICE</h4>
   </div>
   <div class="jumbotron">
     <form id="player-1">
@@ -27,15 +26,15 @@
         <label for="player2Name">Player 2 Name </label>
         <input type="text" class="form-contol" size="55" id="player2Name">
       </div>
-      <button type="submit" class="btn btn-danger1" id="result"> START</button>
     </form>
+    <button class="btn btn-danger1" id="start"> START</button>
   </div>
-  <div class="container">
+  <div class="player-console container">
     <div class="row">
       <div class="col-md-6">
         <h1 id="player1Name"></h1>
         <button id="player1-roll" class="btn btn -danger"> Roll</button> <button id="player2-roll" class="btn btn -danger">Hold</button>
-        <h1>Dice roll: <span id="die-roll-1"></span></h1>
+        <h1 style="color:purple; >Dice roll: <span id="die-roll-1"></span></h1>
         <p>Round Total <span id="round-total-1"></span></p>
         <p>Total Score <span id="total-score-1"></span></p>
       </div>

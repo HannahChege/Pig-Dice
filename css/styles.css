@@ -1,21 +1,18 @@
 .topnav{
-  font-size: 80;
-  font-style: italic;
+  height: 255px;
   text-align: center;
-  height: 100px;
-  background-color: maroon;
-  text-decoration: overline;
-  text-decoration-style: wavy;
-  text-decoration-color: white;
-
+  background-color: yellow;
 }
 body{
-  background-color: maroon;
+  background-color:;
 
 }
 .jumbotron{
-  background-color: maroon;
+  background-color: ;
    border-style: solid;
+  box-shadow: 0 0 0.5px 0.5px #F2F2F2;
+  padding:10px;
+  margin-left:
 }
 
 .btn btn-danger1{
